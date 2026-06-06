@@ -1,0 +1,14 @@
+# Los datos reales deben versionarse con DVC, no con Git.
+*
+!.gitignore
+!README.md
+!raw/
+!raw/.gitkeep
+!interim/
+!interim/.gitkeep
+!processed/
+!processed/.gitkeep
+!features/
+!features/.gitkeep
+!external/
+!external/.gitkeep
