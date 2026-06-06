@@ -1,0 +1,5 @@
+# MLflow local runs and generated pickle artifacts are local outputs.
+mlruns/*
+!mlruns/.gitkeep
+models_pickle/*
+!models_pickle/.gitkeep
