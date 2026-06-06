@@ -1,6 +1,6 @@
 # Proyecto-Final-Integracion
 
-Sistema de análisis de sentimiento aplicado a reseñas históricas de productos Amazon.
+Sistema de proyección de caída de ventas aplicado a reseñas históricas de productos Amazon.
 
 ## Monitoreo
 
