@@ -1,4 +1,4 @@
-"""Entrena modelos de sentimiento y los registra en MLflow como archivos pickle.
+"""Entrena modelos de análisis de reseñas y los registra en MLflow como archivos pickle.
 
 El script puede ejecutarse con un CSV real o con un dataset de ejemplo incluido en
 memoria. En cada corrida guarda modelos con nombres distintos en formato `.pkl` y
