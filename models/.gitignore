@@ -1,0 +1,5 @@
+# Los modelos y artefactos pesados deben versionarse con DVC, no con Git.
+*
+!.gitignore
+!README.md
+!.gitkeep
