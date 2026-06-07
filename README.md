@@ -26,7 +26,6 @@ El problema se aborda como una tarea supervisada sobre información histórica d
 ├── Notebooks/             # Notebooks exploratorios y entregables del proyecto.
 ├── reports/               # Figuras, reportes y salidas de análisis/monitoreo.
 └── src/                   # Código fuente reutilizable del proyecto.
-    └── monitoring/        # Módulos para monitoreo con Evidently.
 ```
 
 ## Flujo general del proyecto
