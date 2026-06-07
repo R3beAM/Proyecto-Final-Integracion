@@ -1,0 +1,25 @@
+# Parámetros conceptuales del flujo DVC para entrenamiento de modelos.
+# Ajustar estos valores cuando se conecten datasets reales versionados con DVC.
+data:
+  raw_path: ../../data/raw/amazon_reviews.csv
+  processed_path: ../../data/processed/final_dataset_robust.csv
+  text_column: review_text
+  target_column: sentiment
+
+training:
+  test_size: 0.25
+  random_state: 42
+  experiment_name: amazon_reviews_sentiment
+  tracking_uri: ../../mlflow_tracking/mlruns
+  pickle_dir: ../../mlflow_tracking/models_pickle
+
+models:
+  baseline:
+    vectorizer: tfidf
+    ngram_range: [1, 2]
+    classifier: logistic_regression
+    max_iter: 1000
+  comparison:
+    vectorizer: tfidf
+    ngram_range: [1, 1]
+    classifier: multinomial_nb
