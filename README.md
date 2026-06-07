@@ -4,7 +4,7 @@ Sistema de proyección de caída de ventas aplicado a reseñas históricas de pr
 
 ## Objetivo general del proyecto
 
-El objetivo general es construir una solución de Machine Learning que permita analizar reseñas históricas de productos de Amazon y estimar señales de riesgo asociadas a una posible caída de ventas. El proyecto busca integrar preparación de datos, entrenamiento de modelos, seguimiento de experimentos, versionado de artefactos y monitoreo para dejar una base reproducible y escalable.
+El objetivo general es construir una solución de Machine Learning que permita analizar reseñas históricas de productos de Amazon y estimar señales de riesgo asociadas a una posible caída de ventas. El proyecto busca integrar preparación de datos, entrenamiento de modelos, seguimiento de experimentos, versionado de artefactos y monitoreo para dejar una base reproducible y escalable. Se busca predecir riesgo de caída de ventas de un producto con base en reseñas negativas.
 
 ## Descripción breve del problema de Machine Learning
 
