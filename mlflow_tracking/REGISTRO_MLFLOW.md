@@ -129,7 +129,7 @@ python mlflow_tracking/train_and_log_models.py \
   --data data/processed/reviews.csv \
   --text-column review_text \
   --target-column sentiment \
-  --experiment-name amazon_reviews_sentiment
+  --experiment-name amazon_reviews
 
 mlflow ui --backend-store-uri file://$(pwd)/mlflow_tracking/mlruns
 ```
