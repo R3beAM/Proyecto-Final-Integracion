@@ -1,8 +1,0 @@
-# Archivos y carpetas que DVC debe ignorar al recorrer el proyecto.
-# Mantener sincronizado con artefactos temporales locales.
-
-.git/
-.ipynb_checkpoints/
-__pycache__/
-*.pyc
-monitoring/reports/
