@@ -40,6 +40,15 @@ models/               Modelos entrenados y artefactos binarios.
    dvc push
    ```
 
+## Archivos de pipeline conceptual
+
+La carpeta también incluye evidencia de inicialización conceptual del flujo DVC:
+
+- [`dvc.yaml`](dvc.yaml) define una etapa `train_sentiment_models` para reproducir el entrenamiento y registrar artefactos pickle con MLflow cuando los datos versionados estén disponibles.
+- [`params.yaml`](params.yaml) centraliza rutas, columnas y parámetros de entrenamiento para mantener el flujo reproducible.
+
+> Nota: las rutas usan referencias relativas desde `docs/dvc/`. Antes de ejecutar `dvc repro docs/dvc/dvc.yaml`, agrega los datasets reales con `dvc add` y verifica que existan las columnas configuradas.
+
 ## Recomendación
 
 No subas datasets, modelos entrenados ni reportes pesados directamente a Git. Usa Git para código y metadatos, y DVC para los archivos grandes o reproducibles.
