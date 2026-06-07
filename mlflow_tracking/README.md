@@ -5,6 +5,7 @@ Esta carpeta agrega una estructura mínima para registrar corridas de modelos co
 ## Estructura
 
 - `train_and_log_models.py`: script para entrenar y registrar varios modelos de clasificación de sentimiento.
+- `REGISTRO_MLFLOW.md`: documento que explica cómo registrar nombre de experimento, parámetros, métricas, artefactos y modelo final en MLflow.
 - `mlruns/`: carpeta local de tracking de MLflow. Sus artefactos generados se ignoran en Git.
 - `models_pickle/`: carpeta donde se escriben los modelos `.pkl` generados. Sus archivos pickle se ignoran en Git y pueden versionarse con DVC si se desean conservar.
 
